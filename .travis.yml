@@ -13,4 +13,4 @@ script:
 
 after_script:
   # Deploy!
-  - rsync -r * travis@ford.wonko.de:/w/ 
+  - rsync -r -e "ssh -o StrictHostKeyChecking=no" * travis@ford.wonko.de:/w/ 
