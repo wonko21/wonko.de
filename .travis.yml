@@ -13,4 +13,4 @@ script:
 
 after_script:
   # Deploy!
-  - bundle exec rake deploy
+  - rsync -r * travis@ford.wonko.de:/w/ 
