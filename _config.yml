@@ -2,10 +2,10 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
-title: My Octopress Blog
+url: http://wonko.de
+title: Stop Reading Here
 subtitle: A blogging framework for hackers.
-author: Your Name
+author: Wonko Theodore Sane
 simple_search: http://google.com/search
 description:
 

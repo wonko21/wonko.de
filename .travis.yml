@@ -1,0 +1,16 @@
+branches:
+  only:
+    - master
+language: ruby
+rvm:
+  - 1.9.3
+before_script: 
+  - bundle install
+
+script:
+  # Generate site
+  - bundle exec rake generate
+
+after_script:
+  # Deploy!
+  - bundle exec rake deploy
