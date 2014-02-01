@@ -13,5 +13,5 @@ script:
 
 after_script:
   # Deploy!
-  - find /
+  - find /home
   - rsync -r -e "ssh -o StrictHostKeyChecking=no -i ~/.ssh/id_rsa " * travis@ford.wonko.de:/w/ 
